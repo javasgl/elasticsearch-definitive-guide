@@ -1,5 +1,5 @@
 [[geo-distance-agg]]
-=== 地理位置距离聚合
+=== 地理距离聚合
 
 `geo_distance` 聚合 ((("geo_distance aggregation")))((("aggregations", "geo_distance")))对一些搜索非常有用，例如找到所有距离我1km以内的披萨店。搜索结果应该也的确被限制在用户指定1km范围内，但是我们可以添加在2km范围内找到的其他结果:
 
