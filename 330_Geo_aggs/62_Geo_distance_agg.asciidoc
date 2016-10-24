@@ -59,7 +59,7 @@ GET /attractions/restaurant/_search
 ----------------------------
 <1> 主查询查找名称中含有 `pizza` 的饭店。
 <2> `geo_bounding_box` 筛选那些只在纽约区域的结果。
-<3> `geo_distance` 聚合统计距离用户 1km 以内、1km 到 2km 的结果的数量。
+<3> `geo_distance` 聚合统计距离用户 1km 以内，1km 到 2km 的结果的数量。
 <4> 最后，`post_filter` 将结果缩小至那些在用户 1km 范围内的饭店。
 
 前面的请求 ((("post filter", "geo_distance aggregation"))) 响应如下：
