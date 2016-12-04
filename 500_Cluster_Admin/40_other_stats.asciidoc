@@ -1,4 +1,4 @@
-[[_cluster-stats]]
+[[_cluster_stats]]
 === 集群统计
 
 `集群统计` API 提供了和 `节点统计` 相似的输出。((("clusters", "administration", "Cluster Stats API"))) 但有一个重要的区别：节点统计显示的是每个节点上的统计值，而 `集群统计` 展示的是对于单个指标，所有节点的总和值。
